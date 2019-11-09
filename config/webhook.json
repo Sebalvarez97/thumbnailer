@@ -5,8 +5,8 @@
     "secure": false,
     "accessKey": "minio",
     "secretKey": "minio123",
-    "bucket": "images",
-    "destBucket": "images-thumbnail",
+    "bucket": "images-thumbnail",
+    "destBucket": "<bucket-processed>",
     "prefix": "<prefix>",
     "suffix": ".jpg",
     "events": [
