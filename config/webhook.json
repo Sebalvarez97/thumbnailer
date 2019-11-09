@@ -1,14 +1,14 @@
 {
   "config": {
-    "endPoint": "<endpoint>",
+    "endPoint": "35.199.100.179",
     "port": 9000,
     "secure": false,
-    "accessKey": "<access-id>",
-    "secretKey": "<secret-id>",
-    "bucket": "<bucket>",
+    "accessKey": "minio",
+    "secretKey": "minio123",
+    "bucket": "images-thumbnail",
     "destBucket": "<bucket-processed>",
     "prefix": "<prefix>",
-    "suffix": "<suffix>",
+    "suffix": ".jpg",
     "events": [
       "s3:ObjectCreated:*"
     ]
