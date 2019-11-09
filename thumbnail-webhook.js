@@ -37,7 +37,7 @@ var webhookConfig = function() {
     var config = {"webhook": {}}
     config.webhook["1"] = {}
     config.webhook["1"].enable = true
-    config.webhook["1"].endpoint = "http://localhost:3000"
+    config.webhook["1"].endpoint = "http://34.95.167.145:3000"
     return JSON.stringify(config, null, '\t')
 }
 
