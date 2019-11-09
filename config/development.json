@@ -1,13 +1,13 @@
 {
   "config": {
-    "endPoint": "play.minio.io",
+    "endPoint": "35.199.100.179",
     "port": 9000,
-    "secure": true,
-    "accessKey": "Q3AM3UQ867SPQQA43P2F",
-    "secretKey": "zuf+tfteSlswRu7BJ86wekitnifILbZam1KYY3TG",
-    "bucket": "images",
-    "destBucket": "images-processed",
-    "prefix": "",
+    "secure": false,
+    "accessKey": "minio",
+    "secretKey": "minio123",
+    "bucket": "images-thumbnail",
+    "destBucket": "<bucket-processed>",
+    "prefix": "<prefix>",
     "suffix": ".jpg",
     "events": [
       "s3:ObjectCreated:*"
