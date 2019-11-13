@@ -1,12 +1,12 @@
 {
   "config": {
-    "endPoint": "35.199.100.179",
+    "endPoint": "http://35.199.100.179",
     "port": 9000,
     "secure": false,
     "accessKey": "minio",
     "secretKey": "minio123",
-    "bucket": "images-thumbnail",
-    "destBucket": "<bucket-processed>",
+    "bucket": "images",
+    "destBucket": "images-thumbnail",
     "prefix": "<prefix>",
     "suffix": ".jpg",
     "events": [
