@@ -1,6 +1,6 @@
 {
   "config": {
-    "endPoint": "http://35.199.100.179",
+    "endPoint": "35.199.100.179",
     "port": 9000,
     "secure": false,
     "accessKey": "minio",
